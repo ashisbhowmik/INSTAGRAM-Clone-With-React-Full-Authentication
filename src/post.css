@@ -1,0 +1,93 @@
+.post {
+  max-width: 600px;
+  background-color: white;
+  padding: 3px;
+  border: 1px solid lightgray;
+  margin-top: 12px;
+  margin-bottom: 45px;
+  margin-left: 10px;
+  /* font-size: 12px; */
+}
+.post__image {
+  width: 100%;
+  object-fit: contain;
+  height: 400px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.post__text {
+  font-weight: normal;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  margin-top: 3px;
+  /* margin-bottom: 4px; */
+}
+
+.post__text {
+  padding: 15px;
+  margin-left: 5px;
+}
+
+.post__commentBox {
+  display: flex;
+  margin-top: 11px;
+  border-top: 1px solid lightgray;
+}
+.post__commentBox > .MuiSvgIcon-root {
+  color: gray;
+  cursor: pointer;
+}
+.post__input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+.post__button {
+  flex: 0;
+  border: none;
+  color: #1273d4;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.post__comments {
+  margin-top: 20px;
+  margin-left: 19px;
+}
+
+.post__responses {
+  display: flex;
+  justify-content: space-between;
+}
+
+.username_ span {
+  flex-direction: column;
+}
+
+.username__style {
+  margin-left: 6px;
+  margin-bottom: 5px;
+}
+.username__style h6 {
+  margin-top: 4px;
+}
+
+.post__responses__left {
+  margin-top: 12px;
+  cursor: pointer;
+  display: flex;
+}
+
+.comment__and__share {
+  margin-left: 34px;
+}
+
+.likes__count {
+  margin-left: 22px;
+}
